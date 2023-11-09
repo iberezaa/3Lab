@@ -1,0 +1,172 @@
+body{
+    background: wheat;
+    color: rgb(102, 63, 63);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+
+a{
+    color: rgb(87, 179, 148);
+    text-decoration: none;   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: azure;
+}
+h1{
+    color:rgb(102, 29, 29);
+    font-style: italic;
+    font-weight: 600;
+}
+.Fotka{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 13px rgb(181, 155, 120);
+    margin-left: 15px;
+    margin-top: 10px;
+
+    ;
+}
+.Info {
+    box-shadow: 2px 2px 2px 2px ;
+    border-radius: 10px;
+    margin-left: 15px;
+    box-shadow: rgb(54, 49, 49);
+    font-style: italics;
+    background: rgb(224, 197, 148);
+    
+}
+
+.all{
+    max-width: 750px;
+}
+
+.new-box > div{
+    background: black;
+    height: 200px;
+}
+.bg-1{
+    background:rgb(224, 197, 148);
+    border-radius: 20px;
+}
+.bg-2{
+    background: rgb(224, 197, 148);
+    border-radius: 20px;
+}
+.bg-3{
+    background: ;
+    border-radius: 20px ;
+}
+.visit{
+    background: rgb(223, 208, 156);
+    border-radius: 40px;
+    margin-left: 40px;
+}
+.vis-text{
+    margin-left: 40px;
+}
+.plug {
+    margin-left: 15px;
+}
+.inp{
+    width: 95%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    margin-left: 10px;
+
+}
+.kn{
+    background: whitesmoke;
+    color:black;
+    padding: 15px 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.kn:hover{
+    opacity: 0.7;
+}
+.hr1{
+    color: antiquewhite;
+}
+.btn{
+    background: whitesmoke;
+    color:black;
+    padding: 15px 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.btn{
+    opacity: 0.7;
+}
+.bg-lr{
+    background: rgb(224, 197, 148);
+    border-radius: 20px;
+}
+/* Кнопка */
+.dropbtn {
+    background-color: rgb(87, 179, 148);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 14px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+
+}
+
+/* Кнопка при наведении */
+.dropbtn:hover {
+    background-color: rgb(149, 222, 198);
+}
+
+/* Для дива у кнопки */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Блок */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(199, 214, 212);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 14px;
+    bottom: -220px;
+}
+
+/* Ссылки внутри блока */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Замена цвета при наведении на ссылки внутри блока */
+.dropdown-content a:hover {
+    background-color: rgb(22, 126, 174);
+}
+
+/* Показывает блок */
+.show {
+    display: block;
+}

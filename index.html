@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Berezdovets</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body></h1>
+    <div class="all">
+    <class="visit"><h1 class="visit"><em class="vis-text">Визитная карточка</em></h1>
+    <script>
+    </script>
+
+        <hr color="antiquewhite" size="5" >
+        <div class="Info">
+        <td><img src="pic.jpg" alt="здесь должна быть моя фотка, но её почему-то нет" class="Fotka"></td>
+        <p class="plug">Берездовец Илья Сергеевич (18 лет)</p>
+            <p class="plug">Студент МТУСИ.БПИ 2303.1 курс.</p>
+    </div> 
+    <hr color="antiquewhite">
+    <div class="card bg-1">
+    <h2 class="plug">Мои социальные сети</h2>
+        <a href="https://t.me/Berez0ff" target="_blank" class="plug">Telegram</a>
+        |
+        <a href="https://github.com/iberezaa" target="_blank" class="plug">Github</a>
+    </div>
+    <hr color="antiquewhite">
+    <div class="bg-2">
+    <h2 class="plug">Мои хобби</h2>
+    <ol type="I">
+        <li class="plug">Спорт: Футбол, теннис</li>
+        <li class="plug">Путешествия</li>
+        <li class="plug">Езда на машине</li>
+    </ol>
+    </div>
+    <hr color="antiquewhite">
+    <div class="bg-lr">
+    <h2 class="plug">Мои лабораторные работы</h2>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Портфолио 🡫</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="https://github.com/iberezaa/FirstLab">Первая лабораторная</a>
+          <a href="https://github.com/iberezaa/2Lab">Вторая лабораторная</a>
+          <a href="https://github.com/iberezaa/3Lab">Третья лабораторная</a>
+        </div>
+        <script> /* При нажатии открывает блок */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+              
+              /* Закрытие блока при клике вне блока */
+              window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+              
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                    }
+                  }
+                }
+              }</script>
+    </div>
+        <hr color="antiquewhite">
+        <div class="bg-3">
+        <h2 class="plug">Связаться со мной</h2>
+            <label for="name" class="plug"> Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" class="inp">
+            <br>
+            <label for="name1" class="plug"> Ваш email:</label>
+            <input type="text" id="name1" placeholder="Введите email" class="inp">
+            <br>
+            <form action="https://t.me/Berez0ff" target="_blank">
+                <button class="btn">Связаться</button>
+                </form>
+        </div>
+
+       
+    </div>
+    
+</body>
+</html>
